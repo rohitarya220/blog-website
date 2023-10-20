@@ -28,7 +28,7 @@ function HeroSection() {
                         <p
                             style={{ color: mode === 'dark' ? 'white' : 'white' }}
                             className="sm:text-3xl text-xl font-extralight sm:mx-auto ">
-                            Here are some blogs and tutorials contributed by <span className='sm:text-4xl text-2xl text-orange-900'>Rohit</span>.
+                            Here are some blogs and tutorials contributed by <span className='sm:text-4xl text-2xl text-orange-900 font-bold'>Rohit</span>.
                         </p>
                     </div>
 

@@ -86,7 +86,7 @@ export default function Nav() {
                             />
                             {/* Logo Text  */}
                             <span>
-                              Career Catalyst
+                              Career
                             </span>
                         </Typography>
                     </Link>
