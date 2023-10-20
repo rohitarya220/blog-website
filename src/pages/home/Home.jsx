@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Layout from '../../componants/layout/Layout'
 import HeroSection from '../../componants/heroSection/HeroSection'
 import BlogPostCard from '../../componants/blogPostCard/BlogPostCard'
-import Loader from '../../componants/loader/Loader'
+
 
 const Home = () => {
 
@@ -13,7 +13,7 @@ const Home = () => {
     <Layout>
       <HeroSection />
       <BlogPostCard />
-   
+    
     </Layout>
   )
 }
