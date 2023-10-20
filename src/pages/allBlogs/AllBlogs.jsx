@@ -51,7 +51,8 @@ function AllBlogs() {
                                                 <img onClick={() => navigate(`/bloginfo/${id}`)} className=" w-full" src={thumbnail} alt="blog" />
 
                                                 {/* Top Items  */}
-                                                <div className="p-6">
+                                                <div className="p-6"  onClick={() => navigate(`/bloginfo/${id}`)}>
+                                                
                                                     {/* Blog Date  */}
                                                     <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1" style={{
                                                         color: mode === 'dark'

@@ -7,7 +7,7 @@ function HeroSection() {
     const { mode } = context;
     return (
         <section
-            style={{ background: mode === 'dark' ? 'rgb(30, 41, 59)' : '#30336b' }}>
+            style={{ background: mode === 'dark' ? 'rgb(30, 41, 59)' : 'rgba(5, 103, 103, 0.8)' }}>
 
             {/* Hero Section  */}
             <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
@@ -21,14 +21,14 @@ function HeroSection() {
                             </div>
 
                             {/* Text  */}
-                            <h1 className=' text-3xl text-white font-bold'>Devknus</h1>
+                            <h1 className=' text-3xl text-white font-bold'>Career Catalyst</h1>
                         </div>
 
                         {/* Paragraph  */}
                         <p
                             style={{ color: mode === 'dark' ? 'white' : 'white' }}
                             className="sm:text-3xl text-xl font-extralight sm:mx-auto ">
-                            Here are some blogs and tutorials contributed by Devknus.
+                            Here are some blogs and tutorials contributed by <span className='sm:text-4xl text-2xl text-orange-900'>Rohit</span>.
                         </p>
                     </div>
 

@@ -38,7 +38,7 @@ function Dashboard() {
                             className='text-center font-bold text-2xl mb-2'
                             style={{ color: mode === 'dark' ? 'white' : 'black' }}
                         >
-                            Kamal Nayan Upadhyay
+                            Rohit kumar modi
                         </h1>
 
                         <h2
@@ -46,12 +46,13 @@ function Dashboard() {
                             Software Developer
                         </h2>
                         <h2
-                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">knupadhyay784@gmail.com
+                            style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
+                            rohitarya7478@gmail.com
                         </h2>
-                        <h2
+                        {/* <h2
                             style={{ color: mode === 'dark' ? 'white' : 'black' }} className="font-semibold">
                             <span>Total Blog : </span>  15
-                        </h2>
+                        </h2> */}
                         <div className=" flex gap-2 mt-2">
                             <Link to={'/createblog'}>
                                 <div className=" mb-2">
@@ -172,6 +173,7 @@ function Dashboard() {
                                                         {/* Delete Blog  */}
                                                         <td onClick={()=> deleteBlogs(id)} style={{ color: mode === 'dark' ? 'white' : 'black' }} className="px-6 py-4">
                                                             <button className=' px-4 py-1 rounded-lg text-white font-bold bg-red-500'>
+                                                               Delete
                                                             </button>
                                                         </td>
                                                     </tr>
